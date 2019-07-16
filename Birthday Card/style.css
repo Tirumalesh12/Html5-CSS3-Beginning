@@ -1,0 +1,52 @@
+#outside {
+ z-index: 1;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ text-align: center;
+ background-color: lightgray;
+ transition: 1s;
+ transform-origin: 0
+}
+
+#inside {
+ z-index: 0;
+ position: absolute;
+ width: 100%;
+ height: 70%;
+ text-align: center;
+ background: url("images/background.jpg");
+ background-size: cover;
+ padding-top: 170px;
+}
+
+#outside img {
+  width: 200px;
+  height: 300px;
+}
+
+#inside img {
+  width: 250px;
+  height: 250px;
+}
+
+.center {
+ width: 300px;
+ text-align: center;
+ margin: auto;
+ padding: 10px
+}
+
+.openCard {
+ transform : rotateY(90deg);
+}
+
+.in-bold {
+ font-weight: bolder; 
+}
+
+.message {
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ width : 900px;
+ margin: auto;
+}

@@ -1,0 +1,34 @@
+body {
+ font-family: 'Arvo' serif; 
+}
+
+.height {
+ min-height: 100vh;
+}
+
+.title-underline{
+ width: 180px;
+ height: 4px;
+ margin: 0 auto;
+ /*background: green!important;*/
+}
+
+.height-80 {
+ min-height: 80vh;
+}
+
+.about-picture {
+ background: url(https://wallpaperplay.com/walls/full/6/c/7/205644.jpg)center/cover no-repeat fixed;
+ /*background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;*/
+}
+
+#progress {
+ background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url(https://wallpaperplay.com/walls/full/6/c/7/205644.jpg)center/cover no-repeat fixed;
+ /*background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;*/
+}
